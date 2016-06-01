@@ -15,7 +15,7 @@ echo "install gcloud... yo!!!"
 echo "===================================="
 sudo yum install -y wget unzip python openssh-client python-openssl
 sudo wget https://dl.google.com/dl/cloudsdk/channels/rapid/google-cloud-sdk.zip && unzip google-cloud-sdk.zip && rm google-cloud-sdk.zip
-sudo google-cloud-sdk/install.sh --usage-reporting=true --path-update=true --bash-completion=true --rc-path=~/.bashrc
+sudo google-cloud-sdk/install.sh --usage-reporting=false --path-update=true --bash-completion=true --rc-path=$HOME/.bashrc
 # Disable updater check for the whole installation.
 # Users won't be bugged with notifications to update to the latest version of gcloud.
 sudo google-cloud-sdk/bin/gcloud config set --installation component_manager/disable_update_check true
