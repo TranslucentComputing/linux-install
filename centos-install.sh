@@ -29,7 +29,7 @@ sudo wget -q https://github.com/devinci-code/ahoy/releases/download/1.1.0/ahoy-`
 echo "===================================="
 echo "refreshing shell"
 echo "===================================="
-source ~/.bash_profile
+source $HOME/.bash_profile
 
 echo "===================================="
 echo "Server is up and ready"
