@@ -27,10 +27,5 @@ echo "===================================="
 sudo wget -q https://github.com/devinci-code/ahoy/releases/download/1.1.0/ahoy-`uname -s`-amd64 -O /usr/local/bin/ahoy && sudo chown $USER /usr/local/bin/ahoy && chmod +x /usr/local/bin/ahoy
 
 echo "===================================="
-echo "refreshing shell"
-echo "===================================="
-source $HOME/.bash_profile
-
-echo "===================================="
 echo "Server is up and ready"
 echo "===================================="
