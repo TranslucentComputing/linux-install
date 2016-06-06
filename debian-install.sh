@@ -8,7 +8,7 @@ sudo apt-get install apt-transport-https ca-certificates
 echo "===================================="
 echo "install DOCKER... yo!!!"
 echo "===================================="
-sudo curl -fsSL https://raw.githubusercontent.com/TranslucentComputing/docker-install/master/main-debain.sh | bash
+sudo curl -fsSL https://raw.githubusercontent.com/TranslucentComputing/docker-install/master/main-debian.sh | bash
 
 echo "===================================="
 echo "install GIT... yo!!!"
