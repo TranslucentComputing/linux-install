@@ -14,6 +14,10 @@ echo "===================================="
 echo "install gcloud... yo!!!"
 echo "===================================="
 sudo yum install -y wget unzip python openssh-client python-openssl
+if [[ -d google-cloud-sdk ]]; then
+    echo "Removing gcloud sdk dir"
+    sudo rm -rf google-cloud-sdk
+fi
 sudo wget https://dl.google.com/dl/cloudsdk/channels/rapid/google-cloud-sdk.zip && unzip -qq google-cloud-sdk.zip && rm google-cloud-sdk.zip
 sudo google-cloud-sdk/install.sh --usage-reporting=false --path-update=true --bash-completion=true --rc-path=$HOME/.bashrc
 # Disable updater check for the whole installation.
