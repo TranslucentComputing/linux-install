@@ -3,7 +3,7 @@ echo "========TC-INC CentOS Bootup=============="
 echo "===================================="
 echo "install DOCKER... yo!!!"
 echo "===================================="
-sudo curl -fsSL https://raw.githubusercontent.com/TranslucentComputing/docker-install/v1.0.0/main-centos.sh | bash
+sudo curl -fsSL https://raw.githubusercontent.com/TranslucentComputing/docker-install/v2.0.0/main-centos.sh | bash
 
 echo "===================================="
 echo "install GIT... yo!!!"
