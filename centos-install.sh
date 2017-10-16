@@ -1,4 +1,6 @@
 echo "========TC-INC CentOS Bootup=============="
+sudo yum update
+sudo yum install -y yum-utils
 
 echo "===================================="
 echo "install DOCKER... yo!!!"
