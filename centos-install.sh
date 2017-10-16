@@ -1,11 +1,10 @@
 echo "========TC-INC CentOS Bootup=============="
 sudo yum update
-sudo yum install -y yum-utils
 
 echo "===================================="
 echo "install DOCKER... yo!!!"
 echo "===================================="
-sudo curl -fsSL https://raw.githubusercontent.com/TranslucentComputing/docker-install/v2.0.0/main-centos.sh | bash
+sudo curl -fsSL https://raw.githubusercontent.com/TranslucentComputing/docker-install/v2.0.1/main-centos.sh | bash
 
 echo "===================================="
 echo "install GIT... yo!!!"
